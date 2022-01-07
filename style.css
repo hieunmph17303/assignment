@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 .menu-item {
-    @apply px-4 py-2;
+  @apply px-4 py-2;
 }
 
 .menu-item__link {
-    @apply text-[#fcfbf7] text-xs;
+  @apply text-[#fcfbf7] text-xs hover:underline;
 }
